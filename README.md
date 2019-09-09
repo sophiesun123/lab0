@@ -1,0 +1,17 @@
+# lab0
+Lab 0 for CS100, Fall 2019
+Sophie Sun
+
+My project is a website that uses CSS and Bootstrap to allow others to get to know me better! There are four html files: index.html, extra.html, mather.html, and personal.html, and one stylesheet: design.css.
+
+The CSS stylesheet that I've created, in addition to Bootstrap, is utilized within each of the four html files. I'll start off with what's in my stylesheet. First, my stylesheet makes the body of the html files a light slate gray color. It also customizes the header, designated as h1, with specified color, font, alignment, and padding. Next, it also customizes the paragraph, designated as p, with specified font and alignment. Following that are a couple of classes: red (which bolds the text and makes it red), italics (which italicizes the text), center (which centers an image per say and adds padding), imgstyle (which makes each image take up 1/3 of the page and adds padding), and liststyle (which customizes the font of a list). Then, I've included table styling options, which include a border, margins, and padding. Lastly, I've added an id called small, which just makes the font smaller.
+
+Next, the index.html file is essentially my homepage: it uses both Bootstrap and my CSS stylesheet for styling. First, I've attached a picture of myself (for context!), added a button that redirects the user to my LinkedIn profile (because why not), and introduced myself with a Harvard introduction. From there, I've used Bootstrap's card deck to align three images with captions and have linked them to the extra, mather, and personal html files.
+
+Upon clicking on the extracurriculars image, the user is redirected to the extra.html page, which also uses both Bootstrap and CSS. It again uses Bootstrap's card deck to align three images with captions describing my extracurricular activities and involvement (HCCG, WIB, and HackHarvard), as well as Bootstrap's button that a user can click to be redirected back to the home page, or index.html.
+
+On the other hand, upon clicking on the Mather image from index.html, the user is redirected to the mather.html page, which also uses Bootstrap and CSS. Here, I've used Bootstrap's grid model that creates three columns of equal width to describe my Blockmates, being a HAP (House Advising Peer), and being a part of IMs. In addition, I've used HTML's id to link the "Blockmates" header to the blockmates section, the "HAP" header to the HAP section, and the "IMs" header to the IMs section. I've also included several pictures for reference. At the bottom of the page, I've again included a button, styled with Bootstrap, that a user can click to be redirected back to index.html.
+
+Lastly, upon clicking on the personal image from index.html, the user is redirected to the personal.html page, which also uses Bootstrap and CSS. I've again used Bootstrap's card deck styling to insert pictures of my family, my dog, and hiking. After that, I used one of Bootstrap's other grid options, which allows for one of three columns to be wider than the others. I've chosen the family column to be wider, because I've included a table (also styled using Bootstrap) in that column. In the other columns, I've included descriptions of the pictures. And last but not least, I've again included the same button at the bottom of the page redirecting the user to the home page.
+
+I hope you enjoy learning more about me and this website!

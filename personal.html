@@ -6,39 +6,72 @@
         <link rel = "stylesheet" href = "design.css">
     </head>
     <body>
-            <img src="family.jpg" class = "center"></a>
-            <p>One of the most important things in my personal life is my family. As pictured above, there are five of us in my family!</p>
-            <table class = "center">
-                <tr>
-                    <th>Name</th>
-                    <th>Who</th> 
-                    <th>Fun Fact</th>
-                </tr>
-                <tr>
-                    <td>Xiao</td>
-                    <td>Father</td> 
-                    <td>He learned how to ski in the Alps!</td>
-                </tr>
-                <tr>
-                    <td>Hong</td>
-                    <td>Mother</td> 
-                    <td>She was an architect!</td>
-                </tr>
-                <tr>
-                    <td>Helen</td>
-                    <td>Sister</td> 
-                    <td>She has perfect pitch and can play the piano, guitar, violin, and drums!</td>
-                </tr>
-                <tr>
-                    <td>Daniel</td>
-                    <td>Brother</td> 
-                    <td>He's double jointed (and is my twin brother)!</td>
-                </tr>
-            </table>
-            <img src="yukon.jpg" class = "center"></a>
-            <p>In addition, I have a beautiful, kind dog, as pictured above, named Yukon!</p>
-            <img src="alaska.jpg" class = "center"></a>
-            <p>And last but not least, I absolutely love hiking - this past summer, I went to Alaska. Pictured above is the Hubbard Glacier!</p>
-            <a href = "index.html"><p id = "small">Return to Home Page</p></a>
+        <div class = "card-deck">
+            <div class = "card">
+                <img src = "family.jpg" class = "card-img-top" alt = "fam">
+                <div class = "card-body">
+                <h5 class = "card-title">Family</h5>
+                </div>
+            </div>
+            <div class = "card">
+                <img src = "yukon.jpg" class = "card-img-top" alt = "yukon">
+                <div class = "card-body">
+                        <h5 class = "card-title">Yukon</h5>
+                </div>
+            </div>
+            <div class = "card">
+                <img src = "alaska.jpg" class = "card-img-top" alt = "hiking">
+                <div class = "card-body">
+                    <h5 class = "card-title">Hiking</h5>
+                </div>
+            </div>
+        </div>
+        <h1 class = red>There are three things that are extremely to me in my personal life, as pictured above: my family, my dog, and hiking!</h1>
+        <div class="container">
+            <div class="row">
+            <div class="col-6">
+                <h1>Family</h1>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Who</th>
+                            <th scope="col">Fun Fact</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                                <td>Xiao</td>
+                                <td>Father</td>
+                                <td>He learned how to ski in the Alps!</td>
+                            </tr>
+                            <tr>
+                                <td>Hong</td>
+                                <td>Mother</td>
+                                <td>She was an architect!</td>
+                            </tr>
+                            <tr>
+                                <td>Helen</td>
+                                <td>Sister</td>
+                                <td>She has perfect pitch and can play the piano, guitar, violin, and drums!</td>
+                            </tr>
+                            <tr>
+                                <td>Daniel</td>
+                                <td>Brother</td>
+                                <td>He's double jointed (and is my twin brother)!</td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <h1>Yukon</h1>
+                <p>In addition, I have a beautiful, kind dog, as pictured above, named Yukon!</p>
+            </div>
+            <div class="col">
+                <h1>Hiking</h1>
+                <p>And last but not least, I absolutely love hiking - this past summer, I went to Alaska. Pictured above is the Hubbard Glacier!</p>
+            </div>
+            </div>
+        <a href = "index.html"><button type="button" class="btn btn-primary btn-lg btn-block">Return to Home Page</button></a>
     </body>
 </html>

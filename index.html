@@ -1,9 +1,44 @@
+<!--requirements: 
+        - using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model
+    - you don’t have to replace all of your originally-written CSS
+    - in README.md, include a short writeup describing your project, what’s contained in each file, 
+      and (optionally) any other additional information the staff should know about your project.
+ -->
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Homepage</title>
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+        <link rel = "stylesheet" href = "design.css">
     </head>
     <body>
-        Hello, world!
+        <img src = "me.jpg" alt = "Me" class = "center">
+        <div class = "col text-center">
+            <a href = "https://www.linkedin.com/in/sophie-sun-712181103/"><button type = "button" class = "btn btn-primary">LinkedIn</button></a>
+        </div>
+        <h1 class = red>My name is Sophie Sun, and my Harvard introduction is as follows:</h1>
+        <p class = "italics">I am a junior in Mather House studying Economics with a secondary in Computer Science.</p>
+        <p>Please select one of the items below to learn more about me!</p>
+        <div class = "card-deck">
+                <div class = "card">
+                <a href = "extra.html"><img src = "extra.jpg" class = "card-img-top" alt = "Extracurriculars"></a>
+                  <div class = "card-body">
+                    <h5 class = "card-title">Extracurricular Activities</h5>
+                  </div>
+                </div>
+                <div class = "card">
+                  <a href = "mather.html"><img src = "mather.jpg" class = "card-img-top" alt = "Mather"></a>
+                  <div class = "card-body">
+                    <h5 class = "card-title">Mather House</h5>
+                  </div>
+                </div>
+                <div class = "card">
+                  <a href = "personal.html"><img src = "personal.jpg" class = "card-img-top" alt = "Personal"></a>
+                  <div class = "card-body">
+                    <h5 class = "card-title">Personal Life</h5>
+                  </div>
+                </div>
+              </div>
     </body>
 </html>
